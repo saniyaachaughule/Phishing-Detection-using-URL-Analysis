@@ -1,42 +1,88 @@
-# 🛡️ Phishing URL Detection using Machine Learning
+## 🛡️ Phishing URL Detection using Machine Learning
 
-This project is developed as part of the Cybersecurity Internship organized by **Digisuraksha Parhari Foundation** and powered by **Infinisec Technologies Pvt. Ltd.**
+## 👥 Team Members
+- **Saniya Santosh Choughule**
+- **Iqra Mohd Nisar Khan**
 
-## 📌 Problem Statement
-
-Phishing attacks are among the most common cybersecurity threats today. They trick users into revealing sensitive information by impersonating legitimate websites. This project aims to detect whether a given URL is **legitimate** or **phishing** using basic URL-based features and a machine learning model.
-
----
-
-## 🎯 Objective
-
-To build a lightweight, CLI-based cybersecurity tool that:
-- Analyzes URLs
-- Extracts structural features
-- Predicts phishing threats using Random Forest Classifier
+## 🧠 Project Goal
+To develop a machine learning-based tool that can detect phishing websites using only the URL. This helps in preventing users from falling victim to fraudulent sites.
 
 ---
 
-## 🛠️ Setup Instructions
+## 🔍 Problem Statement
 
-### 🔧 Prerequisites
-- Python 3.7+
-- `pip` installed
+Phishing is a deceptive technique used by attackers to trick individuals into providing sensitive data by impersonating trusted websites. These fake websites are commonly distributed via URLs that look legitimate. Manual detection is difficult, and traditional blacklists often fail to detect new phishing links. Our tool provides a machine-learning-based approach to analyze and detect phishing URLs dynamically.
 
-### 🧪 Installation Steps
+---
 
+## 💡 Features
+
+- Input a URL and get instant prediction (Phishing or Legitimate)
+- Trained on a real-world dataset of labeled URLs
+- Random Forest classifier for reliable detection
+- Simple CLI-based tool
+- Cleanly structured Python code
+
+---
+
+## ⚙️ Technologies Used
+
+- **Python 3.11** – Core programming language
+- **Scikit-learn** – For training the machine learning model
+- **Pandas** – For data manipulation and analysis
+- **Joblib** – For saving and loading the trained model
+
+---
+## 🧪 How to Use
 ```bash
-git clone https://github.com/your-username/phishing-url-detector.git
-cd phishing-url-detector/tool
+### 1. Clone this Repository
 
-# Install dependencies
+git clone https://github.com/saniyaachaughule/Phishing-Detection-using-URL-Analysis
+cd Phishing-Detection-using-URL-Analysis
+
+### 2. Set Up Environment
+
+python -m venv phishing-env
+phishing-env\Scripts\activate  # On Windows
 pip install -r requirements.txt
 
-# Prepare dataset features
-python prepare_dataset.py
+### 3. Train the Model
 
-# Train the model
+cd tool/source_code
 python train_model.py
 
-# Test a URL
+### 4. Run URL Prediction
+
 python predict_cli.py
+```
+
+## 📊 Screenshots & Output
+
+Enter a URL to check: https://google.com/
+
+Result: Legitimate
+
+![image](https://github.com/user-attachments/assets/8bb42e88-126b-46b5-9b94-a8d376c5bbc1)
+
+---
+
+## 🎥 Demo Video
+👉 Watch on YouTube (replace with actual link)
+
+---
+
+## 📄 License
+This project is for educational purposes only under the MIT License.
+
+---
+
+## ⚠️ Disclaimer
+This tool is a demonstration of ML-based detection and is not a replacement for enterprise-grade threat protection solutions.
+
+---
+
+## 📚 References
+Scikit-learn Docs
+Phishing Dataset (Kaggle)
+
+---
