@@ -65,6 +65,23 @@ Result: Legitimate
 ![image](https://github.com/user-attachments/assets/8bb42e88-126b-46b5-9b94-a8d376c5bbc1)
 
 ---
+## 🛠️ Project Structure
+
+
+
+---
+
+## 🔍 How It Works:
+
+Training: Uses historical data (labeled URLs) to train a machine learning model (Random Forest).
+
+Prediction: Accepts a URL, processes its features, and uses the trained model to predict whether the URL is phishing or legitimate.
+
+Tool Output: Provides real-time results (Phishing or Legitimate) based on the model’s prediction.
+
+This tool helps users avoid phishing attacks by flagging suspicious URLs before they click on them.
+
+---
 
 ## 🎥 Demo Video
 👉 Watch on YouTube (replace with actual link)
