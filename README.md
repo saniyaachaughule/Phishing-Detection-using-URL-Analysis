@@ -64,10 +64,6 @@ Result: Legitimate
 
 ![image](https://github.com/user-attachments/assets/8bb42e88-126b-46b5-9b94-a8d376c5bbc1)
 
-
-![image](https://github.com/user-attachments/assets/201413ea-8054-49fa-bd30-b47c445d4920)
-
-
 ---
 
 ## 🎥 Demo Video
