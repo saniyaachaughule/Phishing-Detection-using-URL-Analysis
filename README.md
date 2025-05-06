@@ -3,6 +3,8 @@
 ## 👥 Team Members
 - **Saniya Santosh Choughule**
 - **Iqra Mohd Nisar Khan**
+  
+---
 
 ## 🧠 Project Goal
 To develop a machine learning-based tool that can detect phishing websites using only the URL. This helps in preventing users from falling victim to fraudulent sites.
@@ -55,8 +57,9 @@ python train_model.py
 
 python predict_cli.py
 ```
+---
 
-## 📊 Screenshots & outputs / Architecture Diagram
+## 📊 Screenshots & outputs 
 
 Enter a URL to check: https://google.com/
 
@@ -65,8 +68,10 @@ Result: Legitimate
 ![image](https://github.com/user-attachments/assets/8bb42e88-126b-46b5-9b94-a8d376c5bbc1)
 
 ---
+
 ## 🛠️ Project Structure
 
+![Screenshot 2025-05-06 135644](https://github.com/user-attachments/assets/cdb43972-37f5-42f7-bbb3-3c6d967fdd2b)
 
 
 ---
@@ -81,10 +86,12 @@ Tool Output: Provides real-time results (Phishing or Legitimate) based on the mo
 
 This tool helps users avoid phishing attacks by flagging suspicious URLs before they click on them.
 
+![image](https://github.com/user-attachments/assets/cbf7de19-6ab5-4f23-a7fe-37b960e83df5)
+
 ---
 
 ## 🎥 Demo Video
-👉 Watch on YouTube (replace with actual link)
+👉 Watch on YouTube (https://www.youtube.com/watch?v=Phishing_URL_Detection_using_Machine_Learning)
 
 ---
 
