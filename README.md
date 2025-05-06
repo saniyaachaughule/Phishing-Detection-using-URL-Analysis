@@ -78,13 +78,13 @@ Result: Legitimate
 
 ## 🔍 How It Works:
 
-Training: Uses historical data (labeled URLs) to train a machine learning model (Random Forest).
+- **Training**: Uses historical data (labeled URLs) to train a machine learning model (Random Forest).
 
-Prediction: Accepts a URL, processes its features, and uses the trained model to predict whether the URL is phishing or legitimate.
+- **Prediction**: Accepts a URL, processes its features, and uses the trained model to predict whether the URL is phishing or legitimate.
 
-Tool Output: Provides real-time results (Phishing or Legitimate) based on the model’s prediction.
+- **Tool Output**: Provides real-time results (Phishing or Legitimate) based on the model’s prediction.
 
-This tool helps users avoid phishing attacks by flagging suspicious URLs before they click on them.
+- This tool helps users avoid phishing attacks by flagging suspicious URLs before they click on them.
 
 ![image](https://github.com/user-attachments/assets/cbf7de19-6ab5-4f23-a7fe-37b960e83df5)
 
