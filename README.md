@@ -91,7 +91,7 @@ Result: Legitimate
 ---
 
 ## 🎥 Demo Video
-👉 Watch on YouTube (https://www.youtube.com/watch?v=Phishing_URL_Detection_using_Machine_Learning)
+👉 Watch on YouTube 
 
 ---
 
