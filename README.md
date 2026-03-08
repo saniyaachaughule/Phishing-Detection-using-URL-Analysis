@@ -1,7 +1,7 @@
 ## 🛡️ Phishing URL Detection using Machine Learning
 
 ## 👥 Team Members
-- **Saniya Santosh Choughule**
+- **Saniya Choughule**
 - **Iqra Mohd Nisar Khan**
   
 ---
